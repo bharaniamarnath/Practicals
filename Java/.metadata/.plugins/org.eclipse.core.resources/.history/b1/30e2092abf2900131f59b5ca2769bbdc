@@ -1,0 +1,14 @@
+
+public class myObjectTest {
+public  void myFunction(String name, int age){
+		
+}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

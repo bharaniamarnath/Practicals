@@ -1,0 +1,25 @@
+
+public class myArrayClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] names = new String[5];
+		names[0] = "Alex";
+		names[1] = "Benjamin";
+		names[2] = "Chris";
+		names[3] = "Daniel";
+		names[4] = "Ed";
+		String[2][2] newnames = new String{
+			("Adam","Brown","Coby"),
+			("Michael", "Nelson", "Oldman")
+		}; 
+		int len = names.length;
+		System.out.println("Total no of names: " + len);
+		for(int i=0;i<5;i++){
+			System.out.println(i + ". " + names[i]);
+	}
+}
+}

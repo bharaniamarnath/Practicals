@@ -1,0 +1,16 @@
+
+public class myClass1 {
+	public static int a;
+	public static int b;
+	
+	public static void main(String[] args) {
+		a=15;
+		b=20;
+		System.out.println("Hello World");
+		System.out.println("Hello Bharane");
+		System.out.println(a+b);
+		
+
+	}
+
+}

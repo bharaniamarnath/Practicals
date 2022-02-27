@@ -1,0 +1,14 @@
+
+public class testClass1 extends testClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				int v = 20;
+				int w = u + v;
+				System.out.println(w);
+			}
+	}
+

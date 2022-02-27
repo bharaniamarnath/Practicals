@@ -1,0 +1,16 @@
+import javax.swing.*;
+import java.awt.*;
+public class swingButton {
+
+	/**
+	 * @param args
+	 */
+	public static void myButton(){		
+		JButton button = new JButton();
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

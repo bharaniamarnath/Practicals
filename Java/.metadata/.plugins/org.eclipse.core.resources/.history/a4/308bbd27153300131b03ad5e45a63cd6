@@ -1,0 +1,19 @@
+import javax.swing.*;
+import java.awt.*;
+public class StudentDetails {
+
+	/**
+	 * @param args
+	 */
+	private static void StudentDetails(){
+		JFrame frame;
+		JPanel p1,p2;
+		JLabel lblId,lblName,lblDept,lblYear,lblUniversity;
+		JTextField txtId,txtName,txtDept,txtYear,txtUniversity;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

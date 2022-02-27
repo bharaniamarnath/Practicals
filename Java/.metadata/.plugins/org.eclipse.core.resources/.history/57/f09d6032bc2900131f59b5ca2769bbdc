@@ -1,0 +1,25 @@
+
+public class myExampleClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 5;
+		int b = 10;
+		float c = 5.6f;
+		float d = 13.4f;
+		int x, y, z;
+		x = y = z = 0;
+		x += 3;
+		System.out.println("b + a is " + (b+a));
+		System.out.println("b - a is " + (b-a));
+		System.out.println("b * a is " + (b*a));
+		System.out.println("b / a is " + (b/a));
+		System.out.println("b % a is " + (b%a));
+		System.out.println("d + c is " + (d+c));
+		System.out.println("a,b,c is " + a + "," + b + "," + c);
+	}
+
+}

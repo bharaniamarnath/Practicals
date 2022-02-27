@@ -1,0 +1,45 @@
+
+public class testClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello Bharane");
+		int a = 12;
+		int b = 11;
+		int c = a + b;
+		System.out.println(c);
+		String d = "This is a string";
+		String e = "This is a strings";
+		System.out.println(d);
+		if(d.equalsIgnoreCase(e)){
+			System.out.println("The string D and E are same");
+		}
+		else{
+			System.out.println("The strings are not same");
+		}
+		boolean f = false;
+		if(a+b == 22){
+			f = true;
+			System.out.println(f);
+		}
+		else{
+			System.out.println(f);
+		}
+		double i = 23.05;
+		double j = 24.90;
+		double k = i + j;
+		System.out.println(k);
+		for(int l=0;l<=10;l++){
+			System.out.println(l + " Loop");
+		}
+		int n = 0;
+		do{
+			String m = "Print me";
+			System.out.println(m);
+		}while(n==5);
+	}
+
+}

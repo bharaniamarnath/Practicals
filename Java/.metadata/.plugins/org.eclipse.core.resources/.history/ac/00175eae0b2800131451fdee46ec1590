@@ -1,0 +1,25 @@
+
+public class testClass1 extends testClass {
+	public static void myFunction(int z, String ef){
+		int ab = 12;
+		int cd = ab + z;
+		String gh = ef + "Richards";
+		System.out.println(cd);
+		System.out.println(gh);
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				int v = 20;
+				int w = u + v;
+				System.out.println(w);
+				String x = "History";
+				String y = x + " & " + p;
+				System.out.println(y);
+				System.out.println(myFunction(45, 'Steven'));
+			}
+	}
+
+

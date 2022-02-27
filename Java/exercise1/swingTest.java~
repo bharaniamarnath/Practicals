@@ -1,0 +1,15 @@
+import javax.swing.*;
+
+public class swingTest{
+private static mySwing(){
+	JFrame frame = new JFrame("Hello Swing");
+	frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
+	frame.setvisible(true);
+}
+public static void main(String[] args){
+public SwingUtilities.invokeLater(new runnable(
+swingTest ms = new swingTest();
+)
+);
+}
+}

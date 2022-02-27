@@ -1,0 +1,13 @@
+
+public class myArrayClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] names = new String[5];
+		names[0] = "Alex";
+	}
+
+}

@@ -1,0 +1,25 @@
+import javax.swing.*;
+import java.awt.*;
+public class swingButton {
+
+	/**
+	 * @param args
+	 */
+	public static void swingButton(){		
+
+	}
+	private static void createSwing(){
+		JFrame frame = new JFrame("My Swing");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JButton button = new JButton("Button 1");
+		button.setVerticalTextPosition(AbstractButton.CENTER);
+		button.setHorizontalTextPosition(AbstractButton.LEADING);
+		frame.getContentPane().add(button);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

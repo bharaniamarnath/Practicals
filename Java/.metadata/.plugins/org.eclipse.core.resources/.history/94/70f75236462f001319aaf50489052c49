@@ -1,0 +1,18 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class myFrame1 {
+
+	/**
+	 * @param args
+	 */
+	private static void createSwing(){
+		JFrame frame = new JFrame("My Frame");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class printSubClass2 extends printClass {
+
+	/**
+	 * @param args
+	 */
+	int z = 3;
+	void printMe(){
+		System.out.println("x is " + x + " y is " + y + " z is " + z);
+		System.out.println("I am an instance of " + this.getClass().getName());
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		printSubClass2 obj = new printSubClass2();
+		obj.printMe();
+	}
+
+}

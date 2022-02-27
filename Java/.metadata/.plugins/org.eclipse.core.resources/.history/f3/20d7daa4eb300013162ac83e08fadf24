@@ -1,0 +1,32 @@
+import java.awt.*;
+
+import javax.swing.*;
+public class mySwingButton {
+
+	/**
+	 * @param args
+	 */
+	protected JButton button;
+
+	private static void createSwing(){
+		JFrame frame = new JFrame("My Swing");
+		frame.setPreferredSize(new Dimension(200,200));
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JButton button = new JButton("Button");
+		button.setVerticalTextPosition(AbstractButton.CENTER);
+		
+		frame.setContentPane(button);
+		frame.pack();
+		frame.setVisible(true);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		javax.swing.SwingUtilities.invokeLater(new Runnable(){
+			public void run(){
+				createSwing();
+			}
+		});
+	}
+
+}

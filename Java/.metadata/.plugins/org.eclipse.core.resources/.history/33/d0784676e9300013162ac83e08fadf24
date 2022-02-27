@@ -1,0 +1,13 @@
+import javax.swing.*;
+public class mySwingButton {
+
+	/**
+	 * @param args
+	 */
+	protected JButton button;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

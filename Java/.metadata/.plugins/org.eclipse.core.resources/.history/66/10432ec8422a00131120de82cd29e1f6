@@ -1,0 +1,17 @@
+
+public class myConstructor {
+	String name;
+	int age;
+	myConstructor(String n, int a){
+		name = n;
+		age = a;
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
