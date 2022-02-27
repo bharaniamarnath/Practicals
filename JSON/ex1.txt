@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JSON Example</h2>
+<p>
+Name: <span id="jname"></span>
+Age: <span id="jage"></span>
+City: <span id="jcity"></span>
+</p>
+<script>
+var JSONObj={
+"name":"Bharane Amarnath",
+"age":21,
+"city":"Madras";
+}
+document.getElementById("jname").innerHTML=JSONObj.name
+document.getElementById("jage").innerHTML=JSONObj.age
+document.getElementById("jcity").innerHTML=JSONObj.city
+</script>
+</html>

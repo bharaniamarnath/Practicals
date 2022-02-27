@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+font-family: tahoma;
+}
+p{
+background: #eee;
+padding: 20px;
+position:absolute;
+line-height: 25px;
+font-size: 12px;
+font-weight: bold;
+box-shadow:1px 1px 3px #000;
+}
+span{
+color:#336699;
+}
+</style>
+</head>
+<body>
+<h2>JSON Example</h2>
+<p>
+Name: <span id="jname"></span><br />
+Age: <span id="jage"></span><br />
+City: <span id="jcity"></span>
+</p>
+<script>
+var JSONObj= [
+{"name":"Bharane Amarnath","age":21,"city":"Madras"},
+{"name":"Bruno Mars","age":25,"city":"Manila"},
+];
+document.getElementById("jname").innerHTML=JSONObj[0].name
+document.getElementById("jage").innerHTML=JSONObj[0].age
+document.getElementById("jcity").innerHTML=JSONObj[0].city
+</script>
+</html>
