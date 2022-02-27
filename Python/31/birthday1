@@ -1,0 +1,25 @@
+person1=input("Enter the name of the first person to wish: ")
+person2=input("Enter the name of the second person to wish: ")
+print(" ")
+
+def happyBirthday(person1):
+    print("Happy Birthday to you !")
+    print("Happy Birthday to you !")
+    print("Happy Birthday to "+person1+" !")
+    print("Happy Birthday to you....!")
+    print(" ")
+
+def happyBirthday(person2):
+    print("Happy Birthday to you !")
+    print("Happy Birthday to you !")
+    print("Happy Birthday to "+person2+" !")
+    print("Happy Birthday to you....!")
+    print(" ")
+    
+def main():
+    happyBirthday(person1)
+    happyBirthday(person2)
+
+main()
+
+

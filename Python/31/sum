@@ -1,0 +1,10 @@
+def sumProblem(x,y):
+    sum=x+y
+    print("The sum of ",x,"and",y,"is",sum)
+def main():
+    sumProblem(2,3)
+    sumProblem(12345,23455)
+    a=int(input("Enter an Integer: "))
+    b=int(input("Enter an Integer: "))
+    sumProblem(a,b)
+main()

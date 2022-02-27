@@ -1,0 +1,16 @@
+def createDict():
+    spanish=dict()
+    spanish['hello']='hola'
+    spanish['yes']='si'
+    spanish['one']='uno'
+    spanish['two']='dos'
+    spanish['three']='tres'
+    spanish['red']='rojo'
+    spanish['black']='negro'
+    return spanish
+
+def main():
+    numberFormat="Count in spanish: {one},{two},{three},..."
+    withSubs=numberFormat.format(**dictionary)
+    print(withSubs)
+main()

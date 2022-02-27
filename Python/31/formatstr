@@ -1,0 +1,17 @@
+def key(formatString):
+    keyFind=list()
+    end=0
+    repeat=formatString.count('{')
+    for i in range(repeat):
+        start=formatString.find('{',end)+1
+        end=formatString.find('}',start)
+        key=formatString[start : end]
+        keyFind.append(key)
+    return set(keyFind)
+story="Once upon a time, there was a guy named Bharane. This guy {Bharane} was a genius.\
+This guy {Bharane} was very interesting in computer. So he {Bharane} always spent time on it {computer}.\
+But he had very friends, because he was different from them {friends}.\
+But still he {Bharane} is good and friendly with them {friends}. But they {friends} were not much attached to him.\
+So he decided to live a different life !\n*The End*"
+print(story)
+print("Key Points",key(story))

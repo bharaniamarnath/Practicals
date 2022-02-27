@@ -1,0 +1,13 @@
+#variable demostrated
+print "This program is a demo of variables"
+v = 5
+print "The value of V is", v
+v = v + 1
+print "Now the value of V is plus one itself, worth it bitch", v
+v = 51
+print "Now the value of V is changed, V can hold any value anytime elsewhere", v
+print "V times 5 equals ", v * 5
+print "Now the value of V is ", v
+print "To make V 5 times bigger, type v=v*5"
+v = v * 5
+print "Now V equals", v, "and not", v / 5

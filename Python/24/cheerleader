@@ -1,0 +1,7 @@
+#another cheerleader program
+word=raw_input("Who do you go for ? ")
+for letter in word:
+    print "Gimme a "+letter+"!"
+    print letter+"!"
+print "Now what does it spell ?"
+print word+"!"

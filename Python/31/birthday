@@ -1,0 +1,18 @@
+def happyBirthdayBharane():
+    print("Happy Birthday to you !")
+    print("Happy Birthday to you !")
+    print("Happy Birthday to Bharane !")
+    print("Happy Birthday to you !")
+    print(" ")
+
+def happyBirthdayAmarnath():
+    print("Happy Birthday to you !")
+    print("Happy Birthday to you !")
+    print("Happy Birthday to Amarnath !")
+    print("Happy Birthday to you !")   
+
+def main():
+    happyBirthdayBharane()
+    happyBirthdayAmarnath()
+
+main()

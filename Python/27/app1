@@ -1,0 +1,32 @@
+from Tkinter import *
+import turtle
+import sys
+
+def main():
+
+    root = Tk()
+
+    canv = Canvas(root, width=600, height=600)
+    canv.pack(side = LEFT)
+
+    root.title("My App")
+
+    turt = turtle.RawTurtle(canv)
+
+    screen = turt.getscreen()
+    screen.setworldcoordinates(0,0,600,600)
+
+    frame = Frame(root)
+    frame.pack(side = RIGHT, fill = BOTH)
+
+    def quitCommand():
+        print "Goodbye"
+        sys.exit()
+    
+    quitButton = Button(frame, text = "Quit", command = quitCommand)
+    quitButton.pack()
+
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()

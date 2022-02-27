@@ -1,0 +1,5 @@
+for count in [1,2,3]:
+    print(count)
+    print('Yes'*count)
+for color in ['red','green','blue']:
+    print(color)

@@ -1,0 +1,2 @@
+x=2.365467678975
+print('longer: {x:.5f},shorter: {x:.2f}'.format(**locals()))

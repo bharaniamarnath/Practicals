@@ -1,0 +1,2 @@
+a=raw_input("Enter a value:")
+print "you entered", a

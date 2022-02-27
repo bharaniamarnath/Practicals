@@ -1,0 +1,23 @@
+import MySQLdb
+import sys
+
+try:
+    db = MySQLdb.connect(
+        host = 'localhost',
+        user = 'bharane',
+        passwd = '21feb1991',
+        db = 'python'
+        )
+
+except Exception as e:
+    sys.exit("Could not connect to the database")
+
+cursor = db.cursor()
+cursor.execute("INSERT INTO test (name, age) VALUES ('Bruno', 25)")
+cursor.execute("SELECT * FROM test")
+result = cursor.fetchall()
+
+if result:
+    print "S.no|Name|Age"
+    for r in result:
+        print r[0],r[1],r[2]

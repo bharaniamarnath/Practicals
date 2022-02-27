@@ -1,0 +1,6 @@
+def multipleAll(numList,multiplier):
+    newList=list()
+    for num in numList:
+        newList.append(num*multiplier)
+    return newList
+print(multipleAll([5,1,3],5))

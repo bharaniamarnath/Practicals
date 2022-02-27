@@ -1,0 +1,7 @@
+#storing text into variables
+text1 = "Good"
+text2 = "Morning"
+text3 = "Bharane"
+print text1, text2
+sentence = text1 + " " + text2 + " " + text3
+print sentence

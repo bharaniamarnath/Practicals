@@ -1,0 +1,7 @@
+x=20
+y=30
+add=x+y
+prod=x*y
+formatStr='{x}+{y}={add}\n{x}*{y}={prod}'
+equation=formatStr.format(**locals())
+print(equation)

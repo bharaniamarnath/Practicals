@@ -1,0 +1,5 @@
+a=raw_input("Enter a number")
+if(a>5):
+    print "Enter below 5"
+else:
+    print "Correct number"

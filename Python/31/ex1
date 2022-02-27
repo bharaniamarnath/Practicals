@@ -1,0 +1,33 @@
+a = 20
+b = 20
+if(a > b):
+    print("A is greater")
+elif(a < b):
+    print("B is greater")
+else:
+    print("A and B are equal")
+
+def myfunction():
+    c = 30;
+    d = 40;
+    print("The sum is")
+    print(c + d)
+myfunction()
+
+def addition(a1,a2):
+    ar = a1 + a2;
+    print("addition")
+    print(ar)
+
+def subtraction(s1,s2):
+    sr = s1 - s2
+    print("subtraction")
+    print(sr)
+    
+addition(50,60)
+subtraction(180,30)
+
+def myname(name):
+    print("my name is ",name)
+
+myname("bharane")

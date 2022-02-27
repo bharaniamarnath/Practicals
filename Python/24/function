@@ -1,0 +1,11 @@
+def myfunction():
+    print "Hello Bharane"
+    
+    x=input("What is 1 + 1 ? ")
+    if x==2:
+        print "You are a genius"
+        return "Congrats"
+    else:
+        print "Stupid! Dont you know to count ?"
+        return "Try again!"
+print myfunction()

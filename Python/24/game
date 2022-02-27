@@ -1,0 +1,73 @@
+def menu(list,question):
+    for entry in list:
+        print 1+list.index(entry),
+        print ") "+entry
+    return input(question)-1
+items=["Toolbox","Pouch Bag","Computer Desk","Pillow","Wardrobe","Door"]
+keylocation=1
+keyfound=0
+loop=1
+print "Last night after spending a long time in computer, you fell asleep in your room, And this morning you wake up and find yourself locked inside your room."
+print "The crazy bitch would have locked you inside."
+print "Now you need to find the alternate key to unlock the door and escape from your room."
+print "Find the key.."
+print "Look around.. You see..",
+print len(items), "things: "
+for x in items:
+    print x
+print " "
+print "The key must be somewhere in the room.. Search for it to unlock the door !"
+while loop==1:
+    choice=menu(items,"What do you want to inspect ? ")
+    if choice==0:
+        if choice==keylocation:
+            print "Great ! You have found the key inside the toolbox !"
+            print ""
+            keyfound=1
+        else:
+            print "Damn ! There is no key inside the toolbox.. "
+            print ""
+    elif choice==1:
+        if choice==keylocation:
+            print "Great ! You have found the key inside your pouch bag !"
+            print ""
+            keyfound=1
+        else:
+            print "Damn ! There is no key inside the bag.."
+            print ""
+    elif choice==2:
+        if choice==keylocation:
+            print "Great ! You have found the key inside the computer desk !"
+            print ""
+            keyfound=1
+        else:
+            print "Damn ! There is no key inside the computer desk.."
+            print ""
+    elif choice==3:
+        if choice==keylocation:
+            print "Great ! You have found the key under the pillow !"
+            print ""
+            keyfound=1
+        else:
+            print "Damn ! There is no key under the pillow.."
+            print ""
+    elif choice==4:
+        if choice==keylocation:
+            print "Great ! You have found the key inside the wardrobe !"
+            print ""
+            keyfound=1
+        else:
+            print "Damn ! There is no key inside the wardrobe.."
+            print ""
+    elif choice==5:
+        if keyfound==1:
+            loop=0
+            print "Going near to the door.. Putting the key into the door lock and *CREEK* ! Great ! The door opened !"
+            print ""
+        else:
+            print "You haven;t found the key yet ! Come back to unlock the door when you find the key..!"
+            print ""
+print "The door is unlocked ! Quick ! Escape from the room ! You are free now !"
+print ""
+        
+        

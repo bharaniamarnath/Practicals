@@ -1,0 +1,10 @@
+PI=3.14159265358979
+def circleArea(radius):
+    return PI*radius*radius
+def circleCircum(radius):
+    return 2*PI*radius
+def main():
+    print("The area of circle with radius 5 is ",circleArea(5))
+    print("The circumference of circle with radius 5 is ",circleCircum(5))
+main()
+    

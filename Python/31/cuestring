@@ -1,0 +1,35 @@
+def getKeys(formatString):
+    keyFind=list()
+    end=0
+    repeat=formatString.count('{')
+    for i in range(repeat):
+        start=formatString.find('{')+1
+        end=formatString.find('}')
+        key=formatString[start : end]
+        keyFind.append(key)
+    return set(keyFind)
+
+def addPick(cue,dictionary):
+    prompt='Enter an example for ' +cue+ ':'
+    dictionary[cue]=input(prompt)
+
+def getUserPicks(cues):
+    userPicks=dict()
+    for cue in cues:
+        addPick(cue,userPicks)
+    return userPicks
+
+def tellStory(story):
+    cues=getKeys(story)
+    userPicks=getUserPicks(cues)
+    print(story.format(**userPicks))
+
+def main():
+    originalStory="""There was three friends named Wappy, Lappy and Zappy. Wappy was intelligent. Lappy was cunning. Zappy was innocent. Wappy and the other two {Lappy} and {Zappy} where going to a forest. There {forest} they found a tree. It {tree}\
+was very old. Lappy was hungry, so he {Lappy} climbed on the tree to find something to eat. He found a fruit. So he plucked it {fruit} and came down.\
+He {Lappy} ate the fruit without sharing it to them {Wappy} and {Zappy}. What a stupid story !\n
+*THE END*"""
+
+    tellStory(originalStory)
+
+main()

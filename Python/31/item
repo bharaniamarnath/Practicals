@@ -1,0 +1,5 @@
+items=['bat','ball','gloves','shirt','pant','shoes','helmet']
+number=1
+for item in items:
+    print(number,item)
+    number=number+1

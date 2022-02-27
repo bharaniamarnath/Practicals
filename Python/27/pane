@@ -1,0 +1,25 @@
+from Tkinter import Tk,Frame,BOTH
+
+class Example(Frame):
+    
+    def __init__(self,parent):
+        Frame.__init__(self,parent,background="white")
+        self.parent=self
+        self.initUI()
+
+    def initUI(self):
+        
+        self.pack(fill=BOTH, expand=1)
+
+def main():
+    root=Tk()
+    root.geometry("400x300+200+200")
+    app = Example(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
+
+        
+        
+        

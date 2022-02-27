@@ -1,0 +1,7 @@
+def lastFirst(first,last):
+    seperator=','
+    name=last+seperator+first
+    return name
+
+print(lastFirst('Bharane','Amarnath'))
+print(lastFirst('Andrew','Garffield'))
