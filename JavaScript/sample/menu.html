@@ -1,0 +1,88 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function(){
+$(".submenu").hide();
+$(".sublist").mouseenter(function(){
+$(this).fadeTo("slow",0.70);
+$(".submenu").slideDown("slow");
+});
+$(".sublist").mouseleave(function(){
+$(this).fadeTo("slow",1);
+$(".submenu").slideUp();
+});
+$(".list").mouseenter(function(){
+$(this).fadeTo("slow",0.70);
+});
+$(".list").mouseleave(function(){
+$(this).fadeTo("slow",1);
+});
+});
+</script>
+<style type="text/css">
+body{
+background: url('bg.jpg') no-repeat center center fixed;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-family: verdana;
+}
+ul.mainmenu {
+list-style-type: none;
+width:400px;
+height: 40px;
+padding-left: 0px;
+}
+ul.mainmenu  li {
+float: left;
+width: 100px;
+height: 40px;
+background-color: #eee;
+text-align: center;
+}
+ul.mainmenu  li a{
+text-decoration: none;
+color: #000;
+width: 100px;
+height: 40px;
+line-height: 40px;
+font-size: 12px;
+font-weight: bold;
+display: block;
+}
+ul.submenu{
+list-style-type: none;
+position:relative;
+float: none;
+width: 150px;
+padding-left: 0px;
+}
+ul.submenu li{
+width: 130px;
+height: 40px;
+text-align: left;
+padding-left: 20px;
+background-color: #fff;
+color: #fff;
+}
+</style>
+</head>
+<body>
+<ul class="mainmenu">
+<li class="list"><a href="#">Home</a></li>
+<li class="sublist"><a href="#">Products</a>
+<ul class="submenu">
+<li class="list"><a href="#">Home</a></li>
+<li class="list"><a href="#">Products</a></li>
+<li class="list"><a href="#">Downloads</a></li>
+<li class="list"><a href="#">Contact</a></li>
+</ul>
+</li>
+<li class="list"><a href="#">Downloads</a></li>
+<li class="list"><a href="#">Contact</a></li>
+</ul>
+</body>
+</html>

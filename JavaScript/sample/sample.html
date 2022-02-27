@@ -1,0 +1,67 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#para").css("opacity","0.40");
+$("#img1").hide();
+$("#img2").hide();
+$("#para").mouseenter(function(){
+$(this).fadeTo("slow",1);
+$("#img1").slideDown();
+$("#img2").slideDown("slow");
+});
+$("#para").mouseleave(function(){
+$(this).fadeTo("slow",0.40);
+$("#img1").slideUp();
+$("#img2").slideUp("slow");
+});
+});
+</script>
+<style>
+body{
+font-family: verdana;
+font-weight: bold;
+font-size: 12px;
+background-color: #666;
+}
+#para{
+width: 120px;
+height: 50px;
+background-color: #eee;
+color: #000;
+line-height: 50px;
+text-align: center;
+}
+#img1{
+width: 200px;
+height: 50px;
+background-color: #ff6600;
+color: #fff;
+line-height: 50px;
+text-align: center;
+}
+#img2{
+width: 250px;
+height: 50px;
+background-color: #ee0000;
+color: #fff;
+line-height: 50px;
+text-align: center;
+}
+ul{
+list-style-type: none;
+}
+</style>
+</head>
+<body>
+<ul>
+<li id="para">This is a link</li>
+<li id="img1">This is a slidedown</li>
+<li id="img2">This is a second slidedown</li>
+</ul>
+</body>
+</html> 
+</body>
+</html>

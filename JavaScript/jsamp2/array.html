@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+body{
+font-family: tahoma;
+line-height: 25px;
+font-size: 14px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+var people = new Array("Bharane", "Amarnath", "cephilo", "pylix", "hyntra", "amardus");
+document.write(people[3] + "<br />");
+var peeps = new Array(3);
+peeps[0] = "Christian";
+peeps[1] = "rvd";
+peeps[2] = "orton";
+document.write(peeps[1] + "<br />");
+var mitb = new Array("damien", "randy");
+document.write(mitb.length + "<br />");
+var raw = new Array("rvd", "cena", "kane", "henry");
+var sd = new Array("damien", "cody", "bryan", "alberto");
+var wwe = sd.concat(raw);
+document.write(wwe[3] + "<br />");
+var movies = new Array("Fight Club", "the Dark Knight", "Iron Man", "Spiderman", "American Psycho");
+var strings = movies.join(" - ");
+document.write(strings + "<br />");
+movies.pop();
+document.write(movies + "<br />");
+var mobiles = new Array("Nokia", "Samsung", "Sony", "HTC", "Apple", "Micromax");
+mobiles.reverse();
+mobiles.push("Karbonn", "Motorola");
+mobiles.sort();
+var mobstring = mobiles.join(" - ");
+document.write(mobstring + "<br />");
+var name = prompt("Enter your name: ", "");
+document.write("Hello "  + name + "<br />");
+var food = new Array(3);
+for(i=0;i<3;i++){
+	food[i] = prompt("Enter your favorite food: ", "");
+}
+document.write(food[0] + " " + food[1] + " " + food[2] + "<br />");
+var fruits = new Array("Apple", "Orange", "Grape", "Pear", "Jack", "Pineapple", "Banana");
+for(i=0;i<fruits.length;i++){
+	document.write(fruits[i] + "<br />");
+}
+var bharane = new Array();
+bharane["color"] = "blue";
+bharane["food"] = "burger";
+document.write("My favorite food is " + bharane["food"]);
+</script>
+</body>
+</html>

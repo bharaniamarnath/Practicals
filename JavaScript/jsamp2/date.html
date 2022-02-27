@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+function showTime() {
+	var now = new Date();
+	var hours = now.getHours();
+	var mins = now.getMinutes();
+	var seconds = now.getSeconds();
+	document.write(hours+":"+mins+":"+seconds+"<br />");
+}
+
+setInterval("showTime()", 1000);
+</script>
+</body>
+</html>

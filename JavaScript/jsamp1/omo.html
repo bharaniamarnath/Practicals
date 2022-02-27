@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+<div id="content" onmousemove="position1()" onmouseout="hide1()">mouse over me 1! </div>
+<div id="tip1" style="visibility:hidden;">I am the mouseover box!</div>
+<div id="content" onmousemove="position2()" onmouseout="hide2()">mouse over me 2! </div>
+<div id="tip2" style="visibility:hidden;">I am the mouseover box!</div>
+<script type="text/javascript">
+function position1() {
+var d = document.getElementById('tip1');
+var e = document.getElementById('tip2');
+d.style.visibility = 'visible';
+d.style.left = event.screenX + 'px';
+d.style.top = event.screenY + 'px';
+e.style.visibility = 'visible';
+e.style.left = event.screenX + 'px';
+e.style.top = event.screenY + 'px';
+}
+document.getElementById('tip1').style.visibility = 'hidden';
+function hide() {
+document.getElementById('tip1').style.visibility = 'hidden';
+document.getElementById('tip2').style.visibility = 'hidden';
+}
+</script>
+</body>
+</html>

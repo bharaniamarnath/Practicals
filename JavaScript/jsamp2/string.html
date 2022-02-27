@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var name = "Bharane";
+var age = 22;
+document.write(name + " is my name and my age is " + age + "<br />" );
+function bharane(x){
+alert("My name is " + x);
+}
+function amarnath(a,b){
+document.write(a + " is better than " + b);
+}
+amarnath("Bharane","Amarnath <br />");
+function addNumber(c,d){
+var e = c+d;
+return e;
+}
+document.write(addNumber(3,13) + "<br />");
+function doFirst(){
+document.write("I am first ! <br />");
+}
+function doSecond(){
+document.write("I am second ! <br />");
+}
+function combo(){
+doFirst();
+doSecond();
+}
+combo();
+var s = "snake";
+function globy(){
+var q ="queen";
+document.write(s + q);
+}
+globy();
+document.write(s);
+</script>
+<form>
+<input type="button" value="First name" onclick="bharane('Bharane')" />
+<input type="button" value="Last name" onclick="bharane('Amarnath')" />
+</form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+<script>
+function pageLoader()
+{
+alert("Welcome to my page");
+}
+function changeText()
+{
+x=document.getElementById("change");
+x.innerHTML="The text has been changed";
+}
+</script>
+<style>
+body
+{
+background: #ccc;
+font-family: sans-serif;
+margin: 20px;
+}
+input[type="button"]
+{
+background: #ff9900;
+border: 1px solid #ff9900;
+font-family: sans-serif;
+padding: 10px;
+margin-left: 20px;
+font-size: 12px;
+}
+#content
+{
+padding: 20px;
+background: #666;
+width: 400px;
+border-radius: 4px;
+}
+#change
+{
+padding: 20px;
+color: #fff;
+font-size: 12px;
+}
+</style>
+</head>
+<body onload="pageLoader()">
+<h1>Welcome to my page</h1>
+<div id="content">
+<div id="change">Hello ! click the button to change the text here !
+</div>
+<input type="button" onclick="changeText()" value="Click to change">
+</div>
+</body>
+</html>

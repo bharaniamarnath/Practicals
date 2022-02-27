@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">
+function person(name, age) {
+	this.name = name;
+	this.age = age;
+	this.yearOfDying = yearsLeft;
+}
+function yearsLeft() {
+	var numYears = 70 - this.age;
+	return numYears;
+}
+var bharane = new person("Bharane Amarnath", 22);
+var hugh = new person("Hugh Jackman", 40);
+
+robert = {name: "Robert Downey", age: 48};
+will = {name: "Will Smith", age: 40 };
+</script>
+</head>
+<body>
+<script type="text/javascript">
+var x = "Bharane Amarnath";
+document.write(x.length + "<br />");
+document.write(bharane.name + " will die after " + bharane.yearOfDying() + " years. <br />");
+document.write(robert.name + " is a cooler actor than " + will.name + " because he is " + robert.age);
+</script>
+</body>
+</html>
