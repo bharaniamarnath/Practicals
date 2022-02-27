@@ -1,0 +1,4 @@
+Bharane	IT	69
+Bharthi	IT	65
+Salman	EEE	60
+Alan	VC	68

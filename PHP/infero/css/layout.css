@@ -1,0 +1,501 @@
+*{
+margin: 0 auto;
+padding: 0 auto;
+}
+body{
+background: #fff;
+}
+#container{
+width: 900px;
+margin-top: 0px;
+border-right: 1px solid #000;
+border-left: 1px solid #000;
+height: 100%;
+}
+#header{
+width: 900px;
+height: 70px;
+background-image: url('../images/header.png');
+}
+#header img{
+padding-top: 15px;
+padding-left: 20px;
+}
+#content{
+width: 860px;
+padding: 20px;
+padding-bottom: 20px;
+background: #e6e6e6;
+overflow: hidden;
+}
+#loginform{
+width: 400px;
+float: left;
+}
+#loginform table{
+float: left;
+}
+#loginform td{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+width: 100px;
+padding: 10px;
+}
+#signupform{
+width: 400px;
+float: left;
+padding-left: 20px;
+float: left;
+border-left: 1px solid #d6d6d6;
+}
+#signupform table{
+float: left;
+}
+#signupform td{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+width: 100px;
+padding: 10px;
+}
+input[type="text"]{
+width: 200px;
+padding: 5px;
+border: 1px solid #000;
+font-family: tahoma;
+}
+input[type="password"]{
+width: 200px;
+padding: 5px;
+border: 1px solid #000;
+font-family: tahoma;
+}
+input[type="submit"]{
+font-family: tahoma;
+font-size: 11px;
+font-weight: bold;
+color: #fff;
+background-image: url('../images/button.png');
+width: 100px;
+height: 30px;
+border: none;
+}
+input[type="file"]{
+font-family: tahoma;
+font-size: 11px;
+font-weight: bold;
+color: #000;
+width: 200px;
+height: 30px;
+border: none;
+overflow-x: hidden;
+}
+#footer{
+width: 860px;
+clear: both;
+padding: 0px 20px 0px 20px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+background: #000;
+}
+#footer ul{
+list-style-type: none;
+width: 900px;
+height: 30px;
+padding-left: 0px;
+}
+#footer ul li{
+float: left;
+width: 100px;
+height: 30px;
+text-align: center;
+}
+#footer ul li a{
+width: 100px;
+height: 30px;
+line-height: 30px;
+text-decoration: none;
+color: #fff;
+font-family: tahoma;
+font-size: 10px;
+font-weight: bold;
+}
+#footer ul li a:hover{
+color: #00daff;
+}
+#footer p{
+color: #fff;
+font-family: tahoma;
+font-size: 10px;
+font-weight: bold;
+float: right;
+margin-top: -20px;
+}
+h1,h2,h3,h4,h5{
+font-family: tahoma;
+margin-bottom: 10px;
+}
+#userpanel{
+width: 210px;
+height: 170px;
+background-color: #fff;
+border: 1px solid #000;
+padding: 15px;
+float: left;
+position: absolute;
+margin-left: 620px;
+}
+#userpanel p{
+font-family: tahoma;
+font-size: 12px;
+line-height: 20px;
+font-weight: bold;
+padding-bottom: 20px;
+}
+#searchbar{
+float: right;
+width: 200px;
+margin-top: -35px;
+margin-right: 10px;
+}
+#searchbar input[type="text"]{
+width: 150px;
+height: 20px;
+padding-bottom: 3px;
+}
+#searchbar input[type="submit"]{
+width: 30px;
+height: 30px;
+background-image: url('../images/searchbutton.png');
+}
+#leftpanel{
+float: left;
+width: 120px;
+height: 230px;
+background-color: #444;
+padding: 20px;
+}
+#leftpanel ul{
+list-style-type: none;
+padding-left: 0px;
+}
+#leftpanel ul li{
+width: 150px;
+height: 30px;
+text-align: left;
+}
+#leftpanel ul li a{
+text-decoration: none;
+font-family: tahoma;
+font-size: 12px;
+line-height: 30px;
+width: 150px;
+height: 30px;
+font-weight: bold;
+color: #fff;
+}
+#leftpanel ul li a:hover{
+color: #ff9900;
+}
+#adminleftpanel{
+float: left;
+width: 120px;
+height: 160px;
+background-color: #444;
+padding: 20px;
+}
+#adminleftpanel ul{
+list-style-type: none;
+padding-left: 0px;
+}
+#adminleftpanel ul li{
+width: 150px;
+height: 30px;
+text-align: left;
+}
+#adminleftpanel ul li a{
+text-decoration: none;
+font-family: tahoma;
+font-size: 12px;
+line-height: 30px;
+width: 150px;
+height: 30px;
+font-weight: bold;
+color: #fff;
+}
+#adminleftpanel ul li a:hover{
+color: #ff9900;
+}
+#socialpanel{
+float: left;
+width: 200px;
+height: 60px;
+background-color: #444;
+padding: 20px;
+margin-left: 620px;
+position: absolute;
+margin-top: 210px;
+}
+#socialpanel h5{
+color: #fff;
+}
+#welcome{
+width: 390px;
+background-color: #fff;
+border: 1px solid #000;
+padding: 15px;
+float: left;
+margin-left: 10px;
+}
+#welcome p{
+font-family: tahoma;
+font-size: 12px;
+line-height: 20px;
+}
+#welcome input[type="button"]{
+font-family: tahoma;
+font-size: 11px;
+font-weight: bold;
+color: #fff;
+background-image: url('../images/button.png');
+width: 100px;
+height: 30px;
+border: none;
+float: right;
+margin-top: 10px;
+}
+#adminlogform{
+width: 460px;
+height: 150px;
+background-color: #fff;
+border: 1px solid #000;
+padding: 20px;
+}
+#adminlogform td{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+width: 120px;
+}
+#acontent{
+min-width: 300px;
+min-height: 300px;
+resize: none;
+padding: 5px;
+border: 1px solid #000;
+}
+#ncontent{
+min-width: 300px;
+min-height: 300px;
+resize: none;
+padding: 5px;
+border: 1px solid #000;
+}
+#fcontent{
+min-width: 300px;
+min-height: 300px;
+resize: none;
+padding: 5px;
+border: 1px solid #000;
+}
+#focontent{
+min-width: 300px;
+min-height: 300px;
+resize: none;
+padding: 5px;
+border: 1px solid #000;
+}
+#fmessage{
+min-width: 300px;
+min-height: 300px;
+resize: none;
+padding: 5px;
+border: 1px solid #000;
+}
+#articleform{
+width: 400px;
+height: 450px;
+background-color: #fff;
+border: 1px solid #000;
+padding: 20px;
+float: left;
+margin-left: 10px;
+}
+#articleform td{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+width: 180px;
+vertical-align: middle;
+}
+#articleform table{
+margin-top: 30px;
+}
+#articleform input[type="text"]{
+width: 300px;
+font-family: tahoma;
+}
+#charNum{
+float: right;
+}
+#articlebox{
+width: 380px;
+background-color: #fff;
+border: 1px solid #000;
+padding: 20px;
+float: left;
+margin-left: 10px;
+text-align: justify;
+font-family: tahoma;
+font-size: 11px;
+line-height: 20px;
+margin-top: 10px;
+}
+#newarticles{
+width: 400px;
+float: left;
+margin-top: 20px;
+}
+#newarticles h5{
+padding-left: 10px;
+}
+#adate{
+color: #ff9900;
+font-weight: bold;
+}
+#fid{
+color: #ff9900;
+font-weight: bold;
+}
+#fsize{
+color: #ff0000;
+font-weight: bold;
+}
+#auploader{
+color: #33cc00;
+font-weight: bold;
+padding-top: 10px;
+float: right;
+}
+#maincontent{
+width:400px;
+float:left;
+margin-left: 10px;
+}
+#downloadbutton{
+font-family: tahoma;
+font-size: 11px;
+font-weight: bold;
+color: #fff;
+background-image: url('../images/downloadbutton.png');
+width: 100px;
+height: 30px;
+border: none;
+float: left;
+margin-top: 10px;
+text-decoration: none;
+text-align: center;
+line-height: 30px;
+}
+#forumbutton{
+font-family: tahoma;
+font-size: 11px;
+font-weight: bold;
+color: #fff;
+background-image: url('../images/forumbutton.png');
+width: 150px;
+height: 30px;
+border: none;
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+}
+#commentbox{
+width: 360px;
+padding: 10px;
+background-color: #efefef;
+border: 1px solid #666;
+margin-top: 10px;
+}
+#commentbox h4{
+margin-bottom: 0px;
+}
+#forumcomment{
+min-width: 380px;
+min-height: 100px;
+resize: none;
+padding: 5px;
+border: 1px solid #000;
+}
+#memberbox{
+width: 100px;
+height: 120px;
+background-color: #fff;
+border: 1px solid #000;
+float: left;
+margin-left: 10px;
+text-align: left;
+font-family: tahoma;
+line-height: 15px;
+margin-top: 10px;
+padding: 5px;
+padding-top: 10px;
+}
+#memberbox h6{
+padding-left: 10px;
+padding-right: 10px;
+}
+#memberlogo{
+width:80px;
+height: 80px;
+margin-bottom: 5px;
+background-image: url('../images/member.png');
+}
+#sitepath{
+background: #333;
+width: 408px;
+height: 20px;
+padding: 5px;
+padding-left: 10px;
+float: left;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+#sitepath a{
+color: #fff;
+text-decoration: none;
+height: 20px;
+line-height: 15px;
+font-family: tahoma;
+font-size: 11px;
+font-weight: bold;
+display: inline-block;
+text-align: center;
+}
+#sitepath a:hover{
+color: #00d9ff;
+}
+#sitepath img{
+margin-right: 5px;
+margin-left: 5px;
+}
+#newarticles h5{
+background: #333;
+color: #fff;
+padding: 10px;
+padding-left: 25px;
+margin-left: 10px;
+width: 387px;
+font-size: 12px;
+background-image: url('../images/headarrow.png');
+background-repeat: no-repeat;
+background-position: left;
+}
+textarea{
+font-family: tahoma;
+font-size: 12px;
+}
+#authorimage{
+margin-right: 10px;
+}

@@ -1,0 +1,56 @@
+body
+{
+background-color: #ddd;
+}
+.label
+{
+font-family:calibri;
+font-weight:bold;
+}
+.panel
+{
+background-color: #fff;
+padding: 30px 30px 20px 30px;
+border-radius: 10px;
+box-shadow: 0px 0px 2px #000;
+margin-top:10px;
+}
+.header
+{
+font-family:calibri;
+font-weight:bold;
+font-size: 18px;
+}
+.button
+{
+font-family:calibri;
+font-weight:bold;
+margin-top: 10px;
+height: 25px;
+}
+.label1
+{
+font-family:calibri;
+font-weight:bold;
+font-size: 12px;
+margin-top: 10px;
+float:right;
+}
+a
+{
+color: #336699;
+text-decoration:none;
+}
+a:hover
+{
+color: #ff6600;
+text-decoration:none;
+}
+.inputform
+{
+border-radius: 10px;
+}
+td
+{
+padding-bottom: 5px;
+}
