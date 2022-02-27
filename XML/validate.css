@@ -1,0 +1,15 @@
+validate{
+background: #eee;
+padding: 10px;
+font-family: tahoma;
+}
+name{
+font-size: 16px;
+display: block;
+color: green;
+font-weight: bold;
+margin: 5px 0px 5px 0px;
+}
+age{
+color: blue;
+}

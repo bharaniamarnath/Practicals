@@ -1,0 +1,6 @@
+<!DOCTYPE validate[
+<!ELEMENT validate (name,age,dob)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+]>

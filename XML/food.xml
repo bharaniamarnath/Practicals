@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="food.xsl"?>
+<recipe>
+<food>
+<name>Pizza</name>
+<price>$20</price>
+<description>Chicken pizza with peanut butter paste</description>
+</food>
+<food>
+<name>Burger</name>
+<price>$10</price>
+<description>Vegetable burger with cheese</description>
+</food>
+</recipe>

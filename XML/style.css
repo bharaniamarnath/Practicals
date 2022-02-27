@@ -1,0 +1,13 @@
+table{
+background: #eee;
+padding: 5px;
+font-family: tahoma;
+font-size: 14px;
+}
+td{
+padding: 10px;
+}
+th{
+text-align: left;
+padding: 10px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE validate SYSTEM "validate.dtd">
+<?xml-stylesheet type="text/css" href="validate.css"?>
+<validate>
+<name>Bharane Amarnath</name>
+<age>22</age>
+<dob>21-Feb-1991</dob>
+<name>Bharthi Kannan</name>
+<age>22</age>
+<dob>5-Mar-1991</dob>
+</validate>

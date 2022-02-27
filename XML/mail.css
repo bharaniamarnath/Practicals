@@ -1,0 +1,30 @@
+body{
+background: #666;
+}
+.mail{
+padding: 20px;
+background: #000;
+font-family: courier new;
+line-height: 25px;
+border-radius: 5px;
+position: absolute;
+border: 2px solid #00fff0;
+box-shadow: 0px 2px 2px #000;
+}
+.icon{
+float: right;
+}
+b{
+color: #00fff0;
+font-size: 16px;
+}
+h1{
+font-family: courier new;
+color: #00fff0;
+}
+h3{
+color: #fff;
+}
+span{
+color: #00fff0;
+}

@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+table{
+background: #eee;
+padding: 20px;
+font-family: courier new;
+border: 1px solid #000;
+width: 700px;
+}
+td{
+padding: 10px;
+padding-right: 20px;
+}
+th{
+text-align: left;
+padding: 10px;
+}
+td:hover{
+color: #ff0000;
+cursor: pointer;
+}
+table:hover{
+background: #e1e1e1
+}
+</style>
+</head>
+ <body>
+
+ <script>
+ if (window.XMLHttpRequest)
+   {// code for IE7+, Firefox, Chrome, Opera, Safari
+   xmlhttp=new XMLHttpRequest();
+   }
+ else
+   {// code for IE6, IE5
+   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+   }
+ xmlhttp.open("GET","playlist.xml",false);
+ xmlhttp.send();
+ xmlDoc=xmlhttp.responseXML; 
+
+ document.write("<table>");
+ document.write("<tr>");
+ document.write("<th>Song</th>");
+ document.write("<th>Artist</th>");
+ document.write("<th>Album</th>");
+ document.write("</tr>");
+ var x=xmlDoc.getElementsByTagName("song");
+ for (i=0;i<x.length;i++)
+   { 
+   document.write("<tr><td>");
+   document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+   document.write("</td><td>");
+   document.write(x[i].getElementsByTagName("artist")[0].childNodes[0].nodeValue);
+   document.write("</td><td>");
+   document.write(x[i].getElementsByTagName("album")[0].childNodes[0].nodeValue);
+   document.write("</td></tr>");
+   }
+ document.write("</table>");
+ </script>
+
+ </body>
+ </html>

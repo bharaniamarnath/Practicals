@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>XML Parsing</h1>
+<div>
+<b>Room Name: </b><span id="name"></span><br />
+<b>Area: </b><span id="area"></span><br />
+<b>Position: </b><span id="position"></span><br />
+<b>Floor: </b><span id="floor"></span><br />
+<b>Paint: </b><span id="paint"></span>
+</div>
+
+<script>
+if(window.XMLHttpRequest)
+{
+xmlhttp=new XMLHttpRequest();
+}
+else
+{
+xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+}
+xmlhttp.open("GET","house.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML();
+
+document.getElementById("name").innerHTML=xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("area").innerHTML=xmlDoc.getElementsByTagName("area")[0].childNodes[0].nodeValue;
+document.getElementById("position").innerHTML=xmlDoc.getElementsByTagName("position")[0].childNodes[0].nodeValue;
+document.getElementById("floor").innerHTML=xmlDoc.getElementsByTagName("floor")[0].childNodes[0].nodeValue;
+document.getElementById("paint").innerHTML=xmlDoc.getElementsByTagName("paint")[0].childNodes[0].nodeValue;
+</script>
+
+</body>
+</html>

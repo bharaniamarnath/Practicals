@@ -1,0 +1,37 @@
+<html>
+<body>
+<h1>XML DOM Parsing</h1>
+<div>
+<b>From: </b><span id="from"></span><br />
+<b>To: </b><span id="to"></span><br />
+<b>Message: </b><span id="mail"></span>
+</div>
+
+<script>
+txt="<note>";
+txt=txt+"<from>Bharane</from>";
+txt=txt+"<to>XML DOM</to>";
+txt=txt+"<mail>Hello XML</mail>";
+txt=txt+"</note>";
+
+if(window.DOMParser)
+{
+parser=new DOMParser();
+xmlDoc=parser.parseFromString(txt,"text/xml");
+}
+else
+{
+parser=new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async=false;
+xmlDoc.loadXML(txt);
+}
+
+document.getElementById("from").innerHTML=
+xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+document.getElementById("to").innerHTML=
+xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
+document.getElementById("mail").innerHTML=
+xmlDoc.getElementsByTagName("mail")[0].childNodes[0].nodeValue;
+</script>
+</body>
+</html>

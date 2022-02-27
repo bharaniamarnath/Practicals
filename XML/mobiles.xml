@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<electronics>
+<mobile>
+<brand>Nokia</brand>
+<model>6020</model>
+<price>Rs.4000</price>
+</mobile>
+<mobile>
+<brand>G Five</brand>
+<model>C70</model>
+<price>Rs.150</price>
+</mobile>
+<mobile>
+<brand>Nokia</brand>
+<model>3310</model>
+<price>Rs.5000</price>
+</mobile>
+<mobile>
+<brand>Sony Ericsson</brand>
+<model>Dummy</model>
+<price>Rs.0</price>
+</mobile>
+</electronics>
+

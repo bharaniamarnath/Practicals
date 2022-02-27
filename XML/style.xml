@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="style.xsl"?>
+<wwe>
+<wrestler>
+<name>John Cena</name>
+<from>Masachussets</from>
+<weight>250</weight>
+</wrestler>
+<wrestler>
+<name>CM Punk</name>
+<from>Illinois</from>
+<weight>218</weight>
+</wrestler>
+<wrestler>
+<name>The Rock</name>
+<from>Florida</from>
+<weight>275</weight>
+</wrestler>
+</wwe>

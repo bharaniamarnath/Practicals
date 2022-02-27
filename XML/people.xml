@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" version="2.0" href="people.xsl"?>
+<people>
+<person id="01">
+<name>Bharane Amarnath</name>
+<gender>Male</gender>
+<age>22</age>
+<location>Madras</location>
+</person>
+<person id="02">
+<name>Bharthi Kannan</name>
+<gender>Male</gender>
+<age>22</age>
+<location>Madras</location>
+</person>
+<person id="03">
+<name>Antony Vivek</name>
+<gender>Male</gender>
+<age>22</age>
+<location>Madras</location>
+</person>
+<person id="04">
+<name>Lokesh Kumar</name>
+<gender>Male</gender>
+<age>22</age>
+<location>Madras</location>
+</person>
+</people>
+
