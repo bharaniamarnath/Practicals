@@ -1,0 +1,219 @@
+*{
+margin: auto;
+padding: auto;
+}
+body{
+background-color: #eee;
+}
+.container{
+width: 910px;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: helvetica, arial, tahoma;
+}
+.header{
+width: 910px;
+height: 75px;
+background-color: #9c1c6b;
+border-radius: 40px 20px 0px 0px;
+}
+.content{
+width: 910px;
+position: relative;
+background-color: #fff;
+padding: 10px 0px 10px 0px;
+overflow: hidden;
+}
+.news{
+width: 720px;
+height: 300px;
+background-color: #fff;
+border: 2px solid #999;
+border-right: none;
+float: left;
+margin-left: 10px;
+z-index: 2;
+border-radius: 20px 0px 0px 20px;
+}
+.latest{
+width: 650px;
+height: 280px;
+background-color: #fff;
+border: 1px solid #e6e6dc;
+margin-top: 10px;
+margin-left: 10px;
+float: left;
+}
+.events{
+width: 200px;
+height: 280px;
+background-color: #fff;
+border: 1px solid #e6e6dc;
+margin-top: 10px;
+margin-left: 10px;
+float: left;
+font-size: 12px;
+}
+.canteen{
+width: 400px;
+height: 300px;
+background-color: #fff;
+border: 1px solid #e6e6dc;
+margin-top: 10px;
+margin-left: 10px;
+float: left;
+}
+.offers{
+width: 450px;
+height: 300px;
+background-color: #fff;
+border: 1px solid #e6e6dc;
+margin-top: 10px;
+margin-left: 10px;
+float: left;
+}
+.copyrights{
+width: 900px;
+position: relative;
+height: 25px;
+background-color: #9c1c6b;
+font-family: helvetica, arial, tahoma;
+font-size: 8px;
+color: #fff;
+text-align: right;
+line-height: 25px;
+padding-right: 10px;
+border-radius: 0px 0px 0px 20px;
+}
+img.logo{
+width: 25%;
+height: 75%;
+padding: 10px 0px 10px 10px;
+}
+.search{
+float: right;
+margin: 30px 30px 10px 0px;;
+}
+input[type="submit"]{
+background-color: #000;
+border: none;
+color: #fff;
+padding: 5px 10px 5px 10px;
+border-radius: 0px 10px 10px 0px;
+}
+input[type="text"]{
+border: none;
+padding: 5px;
+margin-right: -5px;
+border-radius: 10px 0px 0px 10px;
+}
+input[type="text"]:focus{
+outline: none;
+}
+img.bigreel{
+float: right;
+margin-right: -160px;
+width: 310px;
+height: 310px;
+margin-top: -5px;
+}
+.news font{
+background-color: #9c1c6b;
+color: #ffe9e8;
+padding: 10px;
+border-radius: 20px 0px 60px 0px;
+width: 550px;
+float: left;
+font-family: helvetica;
+font-size: 24px;
+font-weight: bold;
+}
+img.bigreelad{
+width:270px;
+height: 210px;
+padding: 10px;
+}
+.news h3{
+font-size: 20px;
+margin-top: 60px;
+margin-bottom: 5px;
+}
+.news p{
+text-align: justify;
+font-size: 12px;
+width: 370px;
+}
+.latest font{
+background-color: #9c1c6b;
+color: #ffe9e8;
+padding: 7px;
+width: 600px;
+float: left;
+font-family: helvetica;
+font-size: 18px;
+font-weight: bold;
+border-radius: 0px 0px 60px 0px;
+}
+img.poster{
+width: 150px;
+height: 200px;
+padding: 5px;
+}
+.blockbuster p{
+padding-left: 5px;
+font-weight: bold;
+font-size: 12px;
+text-align: center;
+}
+.blockbuster{
+width: 155px;
+float: left;
+}
+.events font{
+background-color: #333;
+color: #fff;
+padding: 7px;
+width: 186px;
+float: left;
+font-family: helvetica;
+font-size: 14px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.events p{
+font-size: 12px;
+padding: 10px;
+}
+input[type="radio"]{
+font-size: 12px;
+font-weight: bold;
+margin: 0px 10px 0px 10px;
+}
+.canteen font{
+background-color: #9c1c6b;
+color: #ffe9e8;
+padding: 7px;
+width: 386px;
+float: left;
+font-family: helvetica;
+font-size: 18px;
+font-weight: bold;
+}
+img.kfc{
+width: 400px;
+height: 235px;
+}
+.offers font{
+background-color: #333;
+color: #fff;
+padding: 7px;
+width: 436px;
+float: left;
+font-family: helvetica;
+font-size: 18px;
+font-weight: bold;
+}
+img.offer{
+width: 450px;
+height: 264px;
+}

@@ -1,0 +1,122 @@
+*{
+margin: 0 auto;
+padding: 0 auto;
+}
+body{
+background-color: #333;
+}
+#container{
+width: 900px;
+margin-top: 5px;
+}
+.green-triangle{
+background-image: url('../images/green-triangle.png');
+width: 600px;
+height: 600px;
+float: left;
+}
+.green-triangle #word1  input[type="text"]{
+border: none;
+background: #8bffb7;
+width: 20px;
+font-weight: bold;
+font-size: 18px;
+font-family: tahoma;
+border-bottom: 2px solid #000; 
+text-align: center;
+margin-right: 10px;
+}
+.green-triangle #word2 input[type="text"]{
+border: none;
+background: #8bffb7;
+width: 25px;
+font-weight: bold;
+font-size: 24px;
+font-family: tahoma;
+border-bottom: 2px solid #000; 
+text-align: center;
+margin-right: 10px;
+}
+.green-triangle #word3 input[type="text"]{
+border: none;
+background: #8bffb7;
+width: 38px;
+font-weight: bold;
+font-size: 36px;
+font-family: tahoma;
+border-bottom: 2px solid #000; 
+text-align: center;
+margin-right: 10px;
+}
+.green-triangle #word4 input[type="text"]{
+border: none;
+background: #8bffb7;
+width: 40px;
+font-weight: bold;
+font-size: 36px;
+font-family: tahoma;
+border-bottom: 2px solid #000; 
+text-align: center;
+margin-right: 10px;
+}
+.green-triangle #word5 input[type="text"]{
+border: none;
+background: #8bffb7;
+width: 40px;
+font-weight: bold;
+font-size: 36px;
+font-family: tahoma;
+border-bottom: 2px solid #000; 
+text-align: center;
+margin-right: 10px;
+}
+#word1{
+margin-left: 220px;
+padding-top: 200px;
+}
+#word2{
+margin-left: 160px;
+padding-top: 70px;
+}
+#word3{
+margin-left: 120px;
+padding-top: 50px;
+}
+#word4{
+margin-left: 80px;
+padding-top: 30px;
+}
+#word5{
+margin-left: 70px;
+padding-top: 30px;
+}
+#levels{
+width: 250px;
+height: 450px;
+background: #666;
+float: right;
+}
+#levels h3{
+color: #8bffb7;
+font-family: tahoma;
+text-align: center;
+padding-top: 5px;
+}
+#level-green{
+width: 180px;
+height: 50px;
+background: #00ba47;
+margin-top: 10px;
+}
+#level-green a{
+width: 180px;
+height: 50px;
+text-decoration: none;
+color: #000;
+line-height: 50px;
+font-weight: bold;
+font-size: 16px;
+font-family: tahoma;
+display: block;
+padding-left: 65px;
+}

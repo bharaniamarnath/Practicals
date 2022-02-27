@@ -1,0 +1,41 @@
+@charset "utf-8";
+.menu ul{
+margin: 0px;
+padding: 0px;
+list-style-type: none;
+width: 900px;
+height:30px;
+background-image: url('../images/menu.png')
+}
+.menu ul li {
+float: left;
+width: 150px;
+height: 30px;
+text-align: center;
+}
+.menu ul li a{
+color: #fff;
+font-family: tahoma;
+text-decoration: none;
+width: 150px;
+height: 30px;
+line-height: 25px;
+display: block;
+font-size: 14px;
+}
+.menu ul li a:hover{
+background-image: url('../images/menuover.png');
+}
+.menu li ul{
+width: 150px;
+height: 90px;
+position: absolute;
+visibility: hidden;
+}
+.menu li ul li{
+float: none;
+width: 150px;
+}
+.menu li:hover ul{
+visibility: visible;
+}

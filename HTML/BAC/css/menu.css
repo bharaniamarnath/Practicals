@@ -1,0 +1,59 @@
+.menu{
+position: relative;
+width: 910px;
+font-family: helvetica, arial, tahoma;
+}
+.menu ul{
+list-style-type: none;
+height: 25px;
+background-color: #000;
+margin-top: 0px;
+padding: 10px 0px 10px 10px;
+}
+.menu ul li{
+float: left;
+width: 100px;
+height: 25px;
+text-align: center;
+}
+.menu ul li a{
+color: #fff;
+text-decoration: none;
+width: 100px;
+height: 25px;
+line-height: 25px;
+display: block;
+font-size: 12px;
+border-radius: 10px
+}
+.menu ul li a:hover{
+background-color: #e47297;
+}
+
+.footer{
+width: 910px;
+height: 40px;
+background-color: #000;
+position: relative;
+font-family: helvetica, arial, tahoma;
+}
+.footer ul{
+list-style-type: none;
+height: 40px;
+}
+.footer ul li{
+float: left;
+width: 80px;
+height: 40px;
+}
+.footer ul li a{
+text-decoration: none;
+color: #fff;
+font-size: 12px;
+width: 80px;
+height: 40px;
+line-height: 40px;
+}
+.footer ul li a:hover{
+color: #ffe9e8;
+}

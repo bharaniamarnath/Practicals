@@ -1,0 +1,56 @@
+@charset "utf-8";
+body {
+}
+body {
+	background-color: #CCC;
+}
+#header {
+	background-color: #000;
+	height: 90px;
+	width: 900px;
+}
+.menu {
+	width: 900px;
+}
+.menu ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	background-color: #39F;
+}
+.menu ul li {
+	float: left;
+	width: 100px;
+	height: 30px;
+}
+.menu ul {
+	height: 30px;
+	width: 900px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+}
+.menu ul li a {
+	font-size: 12px;
+}
+.menu ul li a {
+	font-size: 14px;
+}
+.menu ul li a:hover {
+	background-color: #F90;
+}
+#header h2 {
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}

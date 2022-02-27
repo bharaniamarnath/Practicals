@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+p
+{
+font-family: arial;
+}
+</style>
+<body>
+<script>
+function trafficLight()
+{
+element=document.getElementById('light');
+document.getElementById('stat').innerHTML="STOP!";
+if (element.src.match("red"))
+{
+document.getElementById('stat').innerHTML="READY!";
+element.src="yellow.png";
+}
+else if (element.src.match("yellow"))
+{
+element.src="green.png";
+document.getElementById('stat').innerHTML="GO!";
+}
+else
+{
+element.src="red.png";
+}
+}
+</script>
+<img id="light" onclick="trafficLight()" border="0" src="red.png">
+<p id="stat">STOP!</p>
+<p>CLICK ON THE LIGHT TO CHANGE STATUS</p>
+</body>
+</html>

@@ -1,0 +1,9 @@
+ul.menubar{
+background-image: url('images/menubar.png');
+width: 900px;
+height: 30px;
+list-style-type: none;
+}
+ul.menubar li{
+float: left;
+}

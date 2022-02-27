@@ -1,0 +1,125 @@
+@charset "utf-8";
+*{
+margin: auto;
+padding: auto;
+}
+body{
+background: url('../images/background.jpg') no-repeat center center fixed;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#container{
+width: 900px;
+margin-top: 20px;
+}
+#header{
+background-image: url('../images/header.png');
+width: 900px;
+height: 90px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top: 2px solid #00ff99;
+}
+#search{
+float: right;
+padding-right: 30px;
+padding-top: 30px;
+}
+input[type="submit"]{
+background-image: url('../images/button.png');
+width: 100px;
+height: 30px;
+border: none;
+color: #fff;
+padding-bottom: 5px;
+font-size: 14px;
+}
+input[type="text"]{
+height: 25px;
+border: none;
+width: 150px;
+color: #0099ff;
+}
+#content{
+background-color: #fff;
+padding: 20px;
+overflow: hidden;
+}
+#welcome{
+background-color: #0099cc;
+padding: 20px;
+color: #fff;
+border-radius: 20px;
+}
+p{
+font-family: tahoma;
+font-size: 13px;
+}
+#icon{
+padding-right: 10px;
+}
+#whatshot{
+width: 250px;
+font-family: tahoma;
+border-radius: 10px;
+float: left;
+border: 1px solid #ff6600;
+margin-top: 10px;
+}
+#whh{
+background-color: #ff6600;
+padding: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+color: #fff;
+}
+#whp{
+padding: 10px;
+font-size: 12px;
+}
+#whl{
+text-decoration: none;
+color: #000;
+vertical-align:middle;
+}
+#whl:hover{
+color: #ff0000;
+}
+input[type="button"]{
+background-color: #00bb00;
+border: none;
+color: #fff;
+float: right;
+margin-bottom: 10px;
+margin-right: 5px;
+width: 100px;
+height: 25px;
+padding-bottom: 5px;
+border-radius: 10px;
+}
+#indexad{
+width: 550px;
+float: right;
+background-color: #ffe4e1;
+margin-top: 10px;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid #c71585;
+}
+#indexadimg{
+width: 550px;
+height: 300px;
+margin-bottom: 5px;
+}
+h1,h2,h3,h4,h5{
+font-family: courier;
+color: #8b008b;
+margin-bottom: 5px;
+}
+#hoticon{
+width:20px;
+height: 20px;
+padding-right: 5px;
+}

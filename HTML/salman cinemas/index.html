@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to Salman Cinemas</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+</head>
+<body>
+<div id="container-intro">
+<div id="header-intro">
+<img src="images/banners/introbanner.gif" />
+</div>
+<div id="select-region">
+<img id="dolby-intro" src="images/logos/dolby.png" /><br />
+<img id="sc-intro" src="images/logos/mainlogo.png" /><br />
+<img id="td-intro" src="images/logos/threed.png" />
+<div class="dropmenu">
+   <select id="select-city" onchange="document.location.href=this.value">
+	  <option selected value="">Select your city</option>
+      <option value="home.html">Chennai</option>
+      <option value="home.html">Bangalore</option>
+	  <option value="home.html">Mumbai</option>
+	  <option value="home.html">Kolkota</option>
+   </select>
+</div>
+<div id="main-city">
+<input type="button" value="Chennai" onclick="location.href='home.html'"></input>
+<input type="button" value="Bangalore" onclick="location.href='home.html'"></input>
+<input type="button" value="Mumbai" onclick="location.href='home.html'"></input>
+<input type="button" value="Kolkota" onclick="location.href='home.html'"></input>
+</div>
+</div>
+<div id="intro-footer">
+<a href="about.html">About Us</a> | <a href="contact.html">Contact Us</a> | <a href="feedback.html">Feedback</a> 
+<p>&copy; Copyrights 2013. Salman Cinemas.</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+margin: auto;
+padding: auto;
+}
+body{
+background: #000;
+font-family: sans-serif;
+}
+#container{
+width: 1000px;
+}
+#header{
+background: #222;
+height: 50px;
+line-height: 50px;
+}
+#logo{
+padding-left: 10px;
+color: #ff9900;
+}
+#topbar{
+position: fixed;
+z-index: 1000px;
+width: 100%;
+}
+p{
+font-size: 12px;
+text-align: justify;
+padding: 20px;
+color: #eee;
+position: relative;
+padding-top: 10px;
+}#banner{
+height: 250px;
+background: #222;
+}
